@@ -47,29 +47,7 @@ const HomePage = () => {
 					system. Add, view, and organize your workforce with just a few clicks.
 				</p>
 				<Link to='/get-started'>
-					<button
-						style={{
-							padding: "15px 40px",
-							backgroundColor: "#ffffff",
-							color: "#00245c",
-							borderRadius: "10px",
-							fontSize: "18px",
-							fontWeight: "600",
-							cursor: "pointer",
-							border: "none",
-							transition: "all 0.3s ease-in-out",
-							boxShadow: "0 4px 8px rgba(0, 0, 0, 0.15)",
-						}}
-						onMouseEnter={(e) => {
-							e.target.style.backgroundColor = "#eceff4";
-							e.target.style.boxShadow = "0 8px 16px rgba(0, 0, 0, 0.2)";
-						}}
-						onMouseLeave={(e) => {
-							e.target.style.backgroundColor = "#ffffff";
-							e.target.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.15)";
-						}}>
-						Get Started
-					</button>
+					
 				</Link>
 			</header>
 
